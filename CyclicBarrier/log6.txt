@@ -1,0 +1,226 @@
+Execution Stack: [Ref(int) v ; v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [Ref(int) v, v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(0, int)}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [v= new (20), Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(0, int)}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+Execution Stack: [Ref(Ref(int)) a, a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+Execution Stack: [a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+Execution Stack: [a= new (v), print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+Execution Stack: [print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+Execution Stack: [print(read(v)), print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+Execution Stack: [print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: [20]
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+Execution Stack: []
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: [20, 25]
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: [Ref(int) v ; v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [Ref(int) v, v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [Ref(int) v, v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(0, int)}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [v= new (20) ; Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(0, int)}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [v= new (20), Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(0, int)}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [v= new (20), Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(0, int)}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 6
+Execution Stack: [Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [Ref(Ref(int)) a ; a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [Ref(Ref(int)) a, a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [Ref(Ref(int)) a, a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [a= new (v) ; print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [a= new (v), print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [a= new (v), print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20}
+
+ID: 6
+Execution Stack: [print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: [print(read(v)) ; print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: [print(read(v)), print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: [print(read(v)), print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: []
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: [print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: [20]
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: [print(read(read(a)) + 5)]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: [20]
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+
+ID: 6
+Execution Stack: []
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Output: [20, 25]
+FileTable: {}
+Heap: {1=20, 2=(1, int)}
+

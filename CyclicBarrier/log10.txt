@@ -1,0 +1,322 @@
+ID: 10
+Execution Stack: [int v ; v=4 ; while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [int v, v=4 ; while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [int v, v=4 ; while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=4 ; while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {v=0}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=4 ; while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {v=0}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=4, while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {v=0}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=4, while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {v=0}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1} ; print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: []
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=4}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=3}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=2}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v) ; v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v), v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [v=v - 1, while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=1}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [while(v > 0) {print(v) ; v=v - 1}, print(v)]
+Symbol Table: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v)]
+Symbol Table: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: [print(v)]
+Symbol Table: {v=0}
+Output: [4, 3, 2, 1]
+FileTable: {}
+Heap: {}
+
+ID: 10
+Execution Stack: []
+Symbol Table: {v=0}
+Output: [4, 3, 2, 1, 0]
+FileTable: {}
+Heap: {}
+

@@ -1,0 +1,108 @@
+Execution Stack: [String file ; file=test.in ; open(file) ; int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [String file, file=test.in ; open(file) ; int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [file=test.in ; open(file) ; int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [file=test.in, open(file) ; int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [open(file) ; int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [open(file), int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in}
+Output: []
+FileTable: {}
+Heap: {}
+
+Execution Stack: [int v ; v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [int v, v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [v=read(file) ; print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in, v=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [v=read(file), print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in, v=0}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [print(v) ; v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in, v=1}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [print(v), v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in, v=1}
+Output: []
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [v=read(file) ; print(v) ; close(file)]
+Symbol Table: {file=test.in, v=1}
+Output: [1]
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [v=read(file), print(v) ; close(file)]
+Symbol Table: {file=test.in, v=1}
+Output: [1]
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [print(v) ; close(file)]
+Symbol Table: {file=test.in, v=2}
+Output: [1]
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [print(v), close(file)]
+Symbol Table: {file=test.in, v=2}
+Output: [1]
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: [close(file)]
+Symbol Table: {file=test.in, v=2}
+Output: [1, 2]
+FileTable: {test.in=java.io.BufferedReader@6477463f}
+Heap: {}
+
+Execution Stack: []
+Symbol Table: {file=test.in, v=2}
+Output: [1, 2]
+FileTable: {}
+Heap: {}
+
